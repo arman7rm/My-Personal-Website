@@ -140,7 +140,7 @@ body {
   font-size: 16px;
 }
 
-.heading h1 {
+.heading-2 h1 {
   color: #127cba;
   font-weight: lighter;
   font-size: 60px;
@@ -258,7 +258,7 @@ body {
     width: 70%;
     padding: 5px 10% 5px 10%;
     flex-wrap: wrap;
-    margin-left: 10%;
+    margin-left: 5%;
   }
 
   .lighthouse{
