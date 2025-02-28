@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: "Urbanist", sans-serif;
     font-weight: lighter;
@@ -248,4 +251,49 @@ body {
   .container.resume h2{
     font-size: 40px;
     font-weight: lighter;
+  }
+
+  .flex-container{
+    display: flex;
+    width: 70%;
+    padding: 5px 10% 5px 10%;
+    flex-wrap: wrap;
+  }
+
+  .lighthouse{
+    width: 73%;
+    height: 340px;
+  }
+
+  .waterfall {
+    width: 25%;
+    height: 170px;
+  }
+
+  .jc-sb{
+    justify-content: space-between;
+  }
+
+  .ai-fe{
+    align-items: flex-end;
+  }
+
+  .ai-fs{
+    align-items: flex-start;
+  }
+
+  .tower{
+    width: 25%;
+    height: 150px;
+    margin-left: 20%;
+  }
+
+  .cliff{
+    width: 25%;
+    height: 150px;
+  }
+
+  .mountain{
+    width: 25%;
+    height: 180px;
   }
