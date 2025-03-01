@@ -389,3 +389,130 @@ a:visited {
   border-color:  black;
   padding: 20px;
 }
+
+.headline{
+    background-color: #412316;
+    color: #D1C59B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ordrbtn{
+    background-color: #DEB994;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 1% 47% 1% 47%;
+}
+
+.coffee-colors{
+    background-color: #EDE1D5;
+    color: #412316;
+}
+
+.form-body{
+    background-color: #F0F0F0;
+    padding:10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-weight: normal;
+}
+
+.box1{
+    width: 45%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.second-col{
+    width: 45%;
+}
+
+.first-row{
+    justify-content: space-around;
+}
+
+.box2{
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box3{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+input{
+    border-width: 0.5;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 20px;
+    border-color: #DEB994;;
+    border-style: solid;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr; 
+    grid-template-areas: 
+    "qty productname price"
+    ". notes .";
+}
+
+
+.qty{
+    grid-area: qty;
+    width: 10%;
+}
+
+.productname{
+    grid-area: productname;
+    width: 60%;
+    
+}
+
+.productname p{
+    color: black;
+    font-weight: bold;
+}
+
+.price{
+    grid-area: price;
+}
+
+.notes{
+    grid-area: notes;
+}
+
+.notes .container-col{
+    padding: 0;
+}
+
+.receipt{
+    margin-top: 100px;
+    width: 30%;
+    justify-content: center;
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.receipt .container-row{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.strong p{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.box1 hr{
+    background-color: #DEB994;
+    border: none;
+    height: 1px;
+}
