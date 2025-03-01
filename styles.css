@@ -221,6 +221,7 @@ body {
   .company-logo:hover {
     width: 200px;
     height: 200px;
+    animation: spin 1s 1 ease;
   }
 
   .resume{
@@ -315,4 +316,10 @@ body {
     padding: 5px;
     display: flex;
     flex-direction: column;
+  }
+
+  @keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
   }
