@@ -1,9 +1,9 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    font-family: "Urbanist", sans-serif;
-    font-weight: lighter;
+  font-family: "Urbanist", sans-serif;
+  font-weight: lighter;
 }
 
 .nav-bar {
@@ -56,16 +56,16 @@ body {
 }
 
 .container-3 {
-    margin-top: 5%;
-    padding: 0 10% 0 10%;
-    margin-bottom: 5%;
-  }
+  margin-top: 5%;
+  padding: 0 10% 0 10%;
+  margin-bottom: 5%;
+}
 
-  .container-2 {
-    margin-top: 5%;
-    padding: 0 30% 0 30%;
-    margin-bottom: 5%;
-  }
+.container-2 {
+  margin-top: 5%;
+  padding: 0 30% 0 30%;
+  margin-bottom: 5%;
+}
 
 .section {
   width: 100%;
@@ -88,9 +88,9 @@ body {
   border-radius: 50%;
 }
 .headshot-1 {
-    width: 400px;
-    border-radius: 50%;
-  }
+  width: 400px;
+  border-radius: 50%;
+}
 
 .scroll img {
   display: block;
@@ -101,18 +101,18 @@ body {
 }
 
 .animated-element {
-    margin-top: 15%;
+  margin-top: 15%;
   animation: moveUpDown 1s ease-in-out infinite;
 }
 @keyframes moveUpDown {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-35px);
-    }
+  0%,
+  100% {
+    transform: translateY(0);
   }
-  
+  50% {
+    transform: translateY(-35px);
+  }
+}
 
 .heading {
   text-align: center;
@@ -122,10 +122,10 @@ body {
 }
 
 .heading h1 {
-    text-align: center;
-    color: #353535;
-    font-weight: lighter;
-  }
+  text-align: center;
+  color: #353535;
+  font-weight: lighter;
+}
 .heading-2 h1 {
   color: #127cba;
   font-weight: lighter;
@@ -141,165 +141,251 @@ body {
 }
 
 .content {
-    margin-top: 15%;
+  margin-top: 15%;
   position: relative; /* Keeps content on top of the image */
   z-index: 1; /* Make sure content appears above the image */
   padding: 15px;
 }
 
 .content h1 {
-    margin-top: 15%;
+  margin-top: 15%;
   color: #127cba;
   font-weight: lighter;
   font-size: 60px;
 }
 
 .container-2 {
-    padding: 0 22% 0 22%;
+  padding: 0 22% 0 22%;
   position: relative; /* To position the content over the background image */
 }
 
 .top-section {
-    width: 100%; /* Ensure it spans full width */
-  }
-  
-  table {
-    width: 100%; /* Table takes full width */
-    border-collapse: collapse; /* Removes gaps between table cells */
-  }
-  
-  td {
-    width: 33.33%; /* Ensures equal width distribution */
-    text-align: center; /* Centers text */
-    vertical-align: top; /* Aligns text to the top */
-    padding: 10px; /* Spacing inside cells */
-  }
-  
-  .table-img {
-    width: 100%; /* Image takes full cell width */
-    max-width: 200px; /* Prevents it from getting too large */
-  }
-  
-  .show-case-img {
-    width: 100%; /* Ensures it matches the width of the top section */
-    display: block; /* Removes unwanted gaps */
-  }
-  a {
-    color: black; /* Set default link color */
-    text-decoration: none; /* Remove underline if needed */
-  }
-  
-  a:visited {
-    color: black; /* Keep it the same as the default color */
-  }
+  width: 100%; /* Ensure it spans full width */
+}
 
-  .company-logo {
-    width: 150px;
-    height: 150px;
-  }
+table {
+  width: 100%; /* Table takes full width */
+  border-collapse: collapse; /* Removes gaps between table cells */
+}
 
-  .company-logo:hover {
-    width: 200px;
-    height: 200px;
-    animation: spin 1s 1 ease;
-  }
+td {
+  width: 33.33%; /* Ensures equal width distribution */
+  text-align: center; /* Centers text */
+  vertical-align: top; /* Aligns text to the top */
+  padding: 10px; /* Spacing inside cells */
+}
 
-  .resume{
-    font-size: 20px;
+.table-img {
+  width: 100%; /* Image takes full cell width */
+  max-width: 200px; /* Prevents it from getting too large */
+}
+
+.show-case-img {
+  width: 100%; /* Ensures it matches the width of the top section */
+  display: block; /* Removes unwanted gaps */
+}
+a {
+  color: black; /* Set default link color */
+  text-decoration: none; /* Remove underline if needed */
+}
+
+a:visited {
+  color: black; /* Keep it the same as the default color */
+}
+
+.company-logo {
+  width: 150px;
+  height: 150px;
+}
+
+.company-logo:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.resume {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.container.resume {
+  padding: 0% 33% 0% 33%;
+  line-height: 1.75; /* Adjusts the line height (1.5 times the font size) */
+}
+.github-link {
+  font-weight: normal;
+}
+.github-link:hover {
+  text-decoration: underline;
+}
+
+.eisler-link {
+  color: #127cba;
+}
+
+.eisler-link:hover {
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.container.resume h2 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.flex-container {
+  display: flex;
+  width: 70%;
+  padding: 5px 10% 5px 10%;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+.lighthouse {
+  width: 73%;
+  height: 450px;
+}
+
+.waterfall {
+  width: 25%;
+  height: 200px;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ai-fe {
+  align-items: flex-end;
+}
+
+.ai-fs {
+  align-items: flex-start;
+}
+
+.tower {
+  width: 25%;
+  height: 200px;
+  margin-left: 20%;
+}
+
+.cliff {
+  width: 25%;
+  height: 200px;
+}
+
+.mountain {
+  width: 25%;
+  height: 250px;
+}
+
+.container-row {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-col {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.headshot-1:hover {
+  animation: spin 1s 1 ease;
+}
+
+.grid-container {
+  margin: 0 100px 100px 100px;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "tabs tabs tabs"
+    "story1 story2 story3"
+    "story4 story5 story5";
+}
+
+.header {
+  grid-area: header;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.header h1{
     font-weight: lighter;
-
-  }
-
-  .container.resume{
-    padding: 0% 33% 0% 33%;
-    line-height: 1.75; /* Adjusts the line height (1.5 times the font size) */
-
-  }
-  .github-link{
-
-    font-weight: normal;
-  }
-  .github-link:hover{
-    text-decoration: underline;
-  }
-
-  .eisler-link{
+    font-size: 60px;
     color: #127cba;
-  }
-  
-  .eisler-link:hover{
+}
+.tabs {
+  grid-area: tabs;
+  border: 3px solid black;
+  padding: 50px;
+}
+.tabs p {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+
+.tabs p:hover {
     text-decoration: underline;
   }
-  
-  .link:hover{
-    text-decoration: underline;
-  }
+.tabs ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+.story1 {
+  grid-area: story1;
+  border-width: 0 0 0 3px;
+  border-style:  solid;
+  border-color:  black;
+  padding: 20px;
+}
 
-  .container.resume h2{
-    font-size: 40px;
-    font-weight: lighter;
-  }
+.story2 {
+  grid-area: story2;
+  padding: 20px;
+  border-width: 0 0 0 3px;
+  border-style:  solid;
+  border-color:  black;
+}
 
-  .flex-container{
-    display: flex;
-    width: 70%;
-    padding: 5px 10% 5px 10%;
-    flex-wrap: wrap;
-    margin-left: 5%;
-  }
+.center{
 
-  .lighthouse{
-    width: 73%;
-    height: 450px;
-  }
+  justify-content: center;
+  align-items: center;
+}
 
-  .waterfall {
-    width: 25%;
-    height: 200px;
-  }
+.story3 {
+  grid-area: story3;
+  border-width: 0 3px 0 3px;
+  border-style:  solid;
+  border-color:  black;
+  padding: 20px;
+}
 
-  .jc-sb{
-    justify-content: space-between;
-  }
-
-  .ai-fe{
-    align-items: flex-end;
-  }
-
-  .ai-fs{
-    align-items: flex-start;
-  }
-
-  .tower{
-    width: 25%;
-    height: 200px;
-    margin-left: 20%;
-  }
-
-  .cliff{
-    width: 25%;
-    height: 200px;
-  }
-
-  .mountain{
-    width: 25%;
-    height: 250px;
-  }
-
-  .container-row{
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .container-col{
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  @keyframes spin {
-    to {
-        transform: rotate(360deg);
-    }
-  }
+.story4 {
+  grid-area: story4;
+  border-width: 3px 0px 3px 3px;
+  border-style:  solid;
+  border-color:  black;
+  padding: 20px;
+}
+.story5 {
+  grid-area: story5;
+  border-width: 3px 3px 3px 3px;
+  border-style:  solid;
+  border-color:  black;
+  padding: 20px;
+}
