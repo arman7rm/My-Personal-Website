@@ -454,6 +454,7 @@ input{
     border-radius: 20px;
     border-color: #DEB994;;
     border-style: solid;
+    background-color: #EDE1D5;
 }
 
 .item{
@@ -516,3 +517,18 @@ input{
     border: none;
     height: 1px;
 }
+
+.input-group{
+    position: relative;
+    display: inline-block;
+}
+
+.input-group .input-label {
+    background-color: #EDE1D5;
+    border-radius: 10px;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -1px;
+    padding: 0 2px;
+  }
