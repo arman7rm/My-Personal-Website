@@ -568,6 +568,7 @@ input {
 .seven { grid-area: seven; }
 .eight { grid-area: eight; }
 .nine { grid-area: nine; }
+
 .clear { grid-area: clear; height: 100px; }
 .back { grid-area: back; height: 100px; }
 .divide { grid-area: divide; }
