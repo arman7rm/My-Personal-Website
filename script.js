@@ -1,3 +1,3 @@
-document.querySelector(".test-btn").addEventListener("click", () => {
+document.querySelector(".number").addEventListener("click", () => {
     alert("You clicked the test button!");
 });
