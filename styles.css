@@ -579,7 +579,7 @@ input {
 .zero { grid-area: zero; }
 
 .orange-btn {
-  background-color: orange;
+  background-color: rgb(232, 151, 0);
   color: white;
   height: 100px;
   border-width: 1px;
@@ -592,6 +592,7 @@ input {
   font-size: 40px;
   border-width: 1px;
   transition: all 0.2s ease-in-out;
+  background-color: rgb(228, 228, 228);
 }
 
 .gray-btn:active {
@@ -604,6 +605,17 @@ input {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3) inset; /* Adds a pressed-in shadow */
   border-width: 0;
 }
+
+
+.gray-btn:hover {
+  background-color: #ffffff; /* lighter shade for hover effect */
+}
+.orange-btn:hover {
+  background-color: rgb(246, 194, 97); /* lighter shade for hover effect */
+}
+
+
+
 /* Mobile Optimization */
 @media only screen and (max-width: 768px) {
   body {

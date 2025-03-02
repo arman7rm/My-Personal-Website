@@ -73,7 +73,7 @@ const clear = () => {
 };
 
 document.querySelector(".clear").addEventListener("click", () => {
-    document.querySelector(".display").textContent = "";
+    document.querySelector(".display").textContent = "0";
     clear();
 });
 
