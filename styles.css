@@ -624,13 +624,13 @@ input {
 }
 
 .contact-photo{
-  height: 400px;
-  width: 400px;
+  height: 320px;
+  width: 300px;
   border-radius: 50%;
 }
 
 .left-side{
-  width: 30%;
+  width: 350px;
 }
 
 .right-side{
@@ -641,6 +641,10 @@ input {
 
 .right-side a:hover{
   text-decoration: underline;
+}
+
+.subHeader{
+  color: rgb(240, 156, 0);
 }
 /* Mobile Optimization */
 @media only screen and (max-width: 768px) {
