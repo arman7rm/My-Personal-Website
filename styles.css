@@ -321,9 +321,9 @@ a:visited {
   justify-content: center;
 }
 .header h1 {
-  font-weight: lighter;
+  font-weight: light;
   font-size: 60px;
-  color: #127cba;
+  color: black;
 }
 .tabs {
   grid-area: tabs;
@@ -742,6 +742,7 @@ input {
 
   .header h1 {
     font-size: 40px; /* Reduce font size for mobile */
+    color: black;
   }
 
   .tabs {

@@ -28,7 +28,7 @@
                 <a href="about.html">About Me</a>
             </li>
             <li class="nav-item">
-                <a href="blog.html">Blog</a>
+                <a href="blog.html">Portfolio</a>
             </li>
             <li class="nav-item">
                 <a href="gallery.html">Gallery</a>
@@ -38,126 +38,331 @@
             </li>
         </ul>
     </div>
-    <div class="grid-container">
-        <div class="header">
-            <h1>The New Mo Times</h1>
-        </div>
-        <div class="tabs">
-            <ul>
-                <li>
-                    <p>Politics</p>
-                </li>
-                <li>
-                    <p>Tech</p>
-                </li>
-                <li>
-                    <p>Local</p>
-                </li>
-                <li>
-                    <p>Culinary</p>
-                </li>
-                <li>
-                    <p>Sports</p>
-                </li>
-            </ul>
-        </div>
-        <div class="story1">
-            <div class="container-col center">
-                <h2>Student Learns HTML</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ad in quas alias non! Expedita
-                    similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae mollitia
-                    praesentium ex ullam? Dolorem labore fugiat neque nostrum porro vero fugit.
+    <div class="container-3" style="margin-left: 10%; display: flex;flex-direction: column; ">
 
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam corrupti, eius odio neque incidunt
-                    esse fuga veritatis ipsum, eligendi mollitia, porro quasi provident nisi sit! Doloribus, eligendi
-                    nemo, ad laudantium cupiditate aspernatur eveniet asperiores modi praesentium voluptas eos sunt
-                    odioF</p>
+        <div style="flex-basis: 100%;" class="heading-2">
+            <h1>Portfolio</h1>
+        </div>
+        <h2 style="float: left;font-weight: lighter; font-size: 45px;">Some UIs That I Designed...</h2>
+
+        <h2 style="float: left;font-weight: lighter; font-size: 30px;">Coffee Order Form:</h2>
+        <div class="coffee-masters">
+            <div class="headline center container-row">
+                <img src="assets/coffee_masters_logo.png" alt="" style="width: 50px;">
+                <p>Coffee Masters</p>
+            </div>
+            <div class="form-body">
+                <div class="container-row first-row">
+                    <div class="box1 coffee-colors">
+                        <h3>Items</h3>
+                        <div class="item">
+                            <div class="qty">
+                                <p>1X</p>
+                            </div>
+                            <div class="productname">
+                                <p>Capuccino</p>
+                            </div>
+                            <div class="price">
+                                <p>$3.35</p>
+                            </div>
+                            <div class="notes">
+                                <div class="container-col">
+                                    <p>Lite Foam</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <div class="qty">
+                                <p>1X</p>
+                            </div>
+                            <div class="productname">
+                                <p>Capuccino</p>
+                            </div>
+                            <div class="price">
+                                <p>$3.85</p>
+                            </div>
+                            <div class="notes">
+                                <div class="container-col">
+                                    <p>Lite Milk</p>
+                                    <p>Double Espresso</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <div class="qty">
+                                <p>1X</p>
+                            </div>
+                            <div class="productname">
+                                <p>Croissant</p>
+                            </div>
+                            <div class="price">
+                                <p>$2.45</p>
+                            </div>
+                            <div class="notes">
+                                <div class="container-col">
+                                    <p>Butter</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-col second-col">
+                        <div class="box2 coffee-colors">
+                            <h3>Name</h3>
+                            <div class="container-row" style="justify-content: left;width: 100%;">
+                                <div class="input-group container-col" style="padding-right:5%;width: 50%;">
+                                    <label for="fname" class="input-label"> First Name</label>
+                                    <input id="fname" type="text" style="width: 100%;">
+                                </div>
+                                <div class="input-group container-col" style="padding-right:5%;width: 50%;">
+                                    <label for="lname" class="input-label"> Last Name</label>
+                                    <input id="lname" type="text" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box3 coffee-colors">
+                            <h3>Payment</h3>
+                            <div class="container-col" style="width: 100%;">
+                                <div class="input-group">
+                                    <label for="cardn" class="input-label"> Card Number</label>
+                                    <input type="text" name="CardNumber" id="cardn" style="width: 80%;">
+                                </div>
+                                <div class="input-group">
+                                    <label for="cvv" class="input-label"> CVV </label>
+                                    <input type="text" name="cvv" id="cvv" style="width: 20%;">
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-col center">
+                    <div class="receipt container-col">
+                        <div class="container-row">
+                            <p>
+                                Subtotal:
+                            </p>
+                            <p>9.65</p>
+                        </div>
+                        <div class="container-row">
+                            <p>Tax:</p>
+                            <p>$0.82</p>
+                        </div>
+                        <div class="container-row strong">
+                            <p>Total:</p>
+                            <p>$10.47</p>
+                        </div>
+                    </div>
+                    <button class="ordrbtn">
+                        Place Order
+                    </button>
+                </div>
             </div>
         </div>
-        <div class="story2">
-            <div class="container-col center">
-                <h2>BREAKING: Local Dog Is A Hero!
-                </h2>
-                <img id="dogImage" style="width: 400px;height: 400px;" alt="Random Dog">
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dolores? Illo dolores, rerum iste aut
-                    porro doloribus fugit itaque voluptas.
-
-                </p>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium incidunt ullam ea magni ipsam
-                    perferendis ratione pariatur enim repellendus quia?
-                </p>
+        <h2 style="float: left;font-weight: lighter; font-size: 30px;">Calculator:</h2>
+        <div class="calculator">
+            <div class="display">
+                0
             </div>
+            <button class="clear gray-btn">
+                C
+            </button>
+            <button class="back gray-btn">
+                ←
+            </button>
+            <button class="orange-btn divide operand">
+                /
+            </button>
+            <button class="gray-btn seven number">
+                7
+            </button>
+            <button class="gray-btn eight number">
+                8
+            </button>
+            <button class="gray-btn nine number">
+                9
+            </button>
+            <button class="orange-btn multiply operand">
+                x
+            </button>
+            <button class="gray-btn four number">
+                4
+            </button>
+            <button class="gray-btn five number">
+                5
+            </button>
+            <button class="gray-btn six number">
+                6
+            </button>
+            <button class="orange-btn minus operand">
+                -
+            </button>
+            <button class="gray-btn one number">
+                1
+            </button>
+            <button class="gray-btn two number">
+                2
+            </button>
+            <button class="gray-btn three number">
+                3
+            </button>
+            <button class="orange-btn plus operand">
+                +
+            </button>
+            <button class="gray-btn zero number">
+                0
+            </button>
+            <button class="orange-btn equal">
+                =
+            </button>
         </div>
-        <div class="story3">
-            <div class="container-col center">
-                <h2>CSS Is Apparently a Thing </h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ad in quas alias non! Expedita
-                    similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae mollitia
-                    praesentium ex ullam? Dolorem labore fugiat neque nostrum porro vero fugit.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam corrupti, eius odio neque incidunt
-                    esse fuga veritatis ipsum, eligendi mollitia, porro quasi provident nisi sit! Doloribus, eligendi
-                    nemo, ad laudantium cupiditate aspernatur eveniet asperiores modi praesentium voluptas eos sunt
-                    odio.
-                </p>
+        <h2 style="float: left;font-weight: lighter; font-size: 30px;">News Paper:</h2>
+        <div class="grid-container">
+            <div class="header">
+                <h1>The New Tech Times</h1>
             </div>
-        </div>
-        <div class="story4">
-            <div class="container-col center">
-                <h2>Between the Angle Brackets: The Brian Holt Scandal
-                </h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ad in quas alias non! Expedita
-                    similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae mollitia
-                    praesentium ex ullam? Dolorem labore fugiat neque nostrum porro vero fugit.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam corrupti, eius odio neque incidunt
-                    esse fuga veritatis ipsum, eligendi mollitia, porro quasi provident nisi sit! Doloribus, eligendi
-                    nemo, ad laudantium cupiditate aspernatur eveniet asperiores modi praesentium voluptas eos sunt
-                    odio.
-                </p>
+            <div class="tabs">
+                <ul>
+                    <li>
+                        <p>Politics</p>
+                    </li>
+                    <li>
+                        <p>Tech</p>
+                    </li>
+                    <li>
+                        <p>Local</p>
+                    </li>
+                    <li>
+                        <p>Culinary</p>
+                    </li>
+                    <li>
+                        <p>Sports</p>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div class="story5">
-            <div class="container-col center">
-                <h2>Scientist Invents New Miracle Drink: Coffee
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim.
-                    Interdum consectetur libero id faucibus nisl tincidunt eget. In tellus integer feugiat scelerisque
-                    varius morbi enim. Sit amet purus gravida quis blandit turpis. Nec ultrices dui sapien eget mi proin
-                    sed. Platea dictumst quisque sagittis purus sit. Augue interdum velit euismod in. Bibendum ut
-                    tristique et egestas quis ipsum suspendisse ultrices gravida. Feugiat sed lectus vestibulum mattis
-                    ullamcorper. Accumsan lacus vel facilisis volutpat est.
+            <div class="story1">
+                <div class="container-col center">
+                    <h2>Student Learns HTML</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ad in quas alias non! Expedita
+                        similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae
+                        mollitia
+                        praesentium ex ullam? Dolorem labore fugiat neque nostrum porro vero fugit.
 
-                </p>
-                <p>
-                    Elit sed vulputate mi sit amet mauris commodo. Enim eu turpis egestas pretium aenean pharetra. Sed
-                    viverra tellus in hac habitasse platea dictumst. Pretium fusce id velit ut tortor pretium viverra
-                    suspendisse. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Orci a
-                    scelerisque purus semper eget duis at tellus at. Amet nulla facilisi morbi tempus iaculis urna. Id
-                    leo in vitae turpis massa sed. In tellus integer feugiat scelerisque varius morbi. Fusce id velit ut
-                    tortor pretium. Fusce id velit ut tortor. Turpis cursus in hac habitasse platea dictumst. Adipiscing
-                    elit duis tristique sollicitudin nibh sit amet.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam corrupti, eius odio neque
+                        incidunt
+                        esse fuga veritatis ipsum, eligendi mollitia, porro quasi provident nisi sit! Doloribus,
+                        eligendi
+                        nemo, ad laudantium cupiditate aspernatur eveniet asperiores modi praesentium voluptas eos sunt
+                        odioF</p>
+                </div>
+            </div>
+            <div class="story2">
+                <div class="container-col center">
+                    <h2>BREAKING: Local Dog Is A Hero!
+                    </h2>
+                    <img id="dogImage" style="width: 400px;height: 400px;" alt="Random Dog">
 
-                </p>
-                <p>
-                    Vel orci porta non pulvinar neque laoreet. Velit euismod in pellentesque massa placerat duis
-                    ultricies. Eget nunc scelerisque viverra mauris in aliquam sem fringilla. Nisl rhoncus mattis
-                    rhoncus urna neque viverra justo nec. In dictum non consectetur a erat nam at lectus. Dignissim
-                    convallis aenean et tortor at risus viverra adipiscing at. Pharetra sit amet aliquam id diam
-                    maecenas ultricies mi. Faucibus pulvinar elementum integer enim neque volutpat. Nibh tellus molestie
-                    nunc non blandit massa enim nec. Rhoncus aenean vel elit scelerisque mauris. Fames ac turpis egestas
-                    sed tempus urna. Aenean euismod elementum nisi quis eleifend quam adipiscing. Iaculis at erat
-                    pellentesque adipiscing commodo elit.
-                </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dolores? Illo dolores, rerum iste
+                        aut
+                        porro doloribus fugit itaque voluptas.
+
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium incidunt ullam ea magni
+                        ipsam
+                        perferendis ratione pariatur enim repellendus quia?
+                    </p>
+                </div>
+            </div>
+            <div class="story3">
+                <div class="container-col center">
+                    <h2>CSS Is Apparently a Thing </h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ad in quas alias non! Expedita
+                        similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae
+                        mollitia
+                        praesentium ex ullam? Dolorem labore fugiat neque nostrum porro vero fugit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam corrupti, eius odio neque
+                        incidunt
+                        esse fuga veritatis ipsum, eligendi mollitia, porro quasi provident nisi sit! Doloribus,
+                        eligendi
+                        nemo, ad laudantium cupiditate aspernatur eveniet asperiores modi praesentium voluptas eos sunt
+                        odio.
+                    </p>
+                </div>
+            </div>
+            <div class="story4">
+                <div class="container-col center">
+                    <h2>Between the Angle Brackets: The Brian Holt Scandal
+                    </h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ad in quas alias non! Expedita
+                        similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae
+                        mollitia
+                        praesentium ex ullam? Dolorem labore fugiat neque nostrum porro vero fugit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam corrupti, eius odio neque
+                        incidunt
+                        esse fuga veritatis ipsum, eligendi mollitia, porro quasi provident nisi sit! Doloribus,
+                        eligendi
+                        nemo, ad laudantium cupiditate aspernatur eveniet asperiores modi praesentium voluptas eos sunt
+                        odio.
+                    </p>
+                </div>
+            </div>
+            <div class="story5">
+                <div class="container-col center">
+                    <h2>Scientist Invents New Miracle Drink: Coffee
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim.
+                        Interdum consectetur libero id faucibus nisl tincidunt eget. In tellus integer feugiat
+                        scelerisque
+                        varius morbi enim. Sit amet purus gravida quis blandit turpis. Nec ultrices dui sapien eget mi
+                        proin
+                        sed. Platea dictumst quisque sagittis purus sit. Augue interdum velit euismod in. Bibendum ut
+                        tristique et egestas quis ipsum suspendisse ultrices gravida. Feugiat sed lectus vestibulum
+                        mattis
+                        ullamcorper. Accumsan lacus vel facilisis volutpat est.
+
+                    </p>
+                    <p>
+                        Elit sed vulputate mi sit amet mauris commodo. Enim eu turpis egestas pretium aenean pharetra.
+                        Sed
+                        viverra tellus in hac habitasse platea dictumst. Pretium fusce id velit ut tortor pretium
+                        viverra
+                        suspendisse. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Orci a
+                        scelerisque purus semper eget duis at tellus at. Amet nulla facilisi morbi tempus iaculis urna.
+                        Id
+                        leo in vitae turpis massa sed. In tellus integer feugiat scelerisque varius morbi. Fusce id
+                        velit ut
+                        tortor pretium. Fusce id velit ut tortor. Turpis cursus in hac habitasse platea dictumst.
+                        Adipiscing
+                        elit duis tristique sollicitudin nibh sit amet.
+
+                    </p>
+                    <p>
+                        Vel orci porta non pulvinar neque laoreet. Velit euismod in pellentesque massa placerat duis
+                        ultricies. Eget nunc scelerisque viverra mauris in aliquam sem fringilla. Nisl rhoncus mattis
+                        rhoncus urna neque viverra justo nec. In dictum non consectetur a erat nam at lectus. Dignissim
+                        convallis aenean et tortor at risus viverra adipiscing at. Pharetra sit amet aliquam id diam
+                        maecenas ultricies mi. Faucibus pulvinar elementum integer enim neque volutpat. Nibh tellus
+                        molestie
+                        nunc non blandit massa enim nec. Rhoncus aenean vel elit scelerisque mauris. Fames ac turpis
+                        egestas
+                        sed tempus urna. Aenean euismod elementum nisi quis eleifend quam adipiscing. Iaculis at erat
+                        pellentesque adipiscing commodo elit.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -173,7 +378,7 @@
                 <a href="about.html">About Me</a>
             </li>
             <li class="nav-item">
-                <a href="blog.html">Blog</a>
+                <a href="blog.html">Portfolio</a>
             </li>
             <li class="nav-item">
                 <a href="gallery.html">Gallery</a>
@@ -186,6 +391,9 @@
         <p>© 2021</p>
     </div>
     <script>
+        document.querySelector(".ordrbtn").addEventListener("click", () => {
+            alert("Coming Right Up!");
+        })
         fetch("https://dog.ceo/api/breeds/image/random")
             .then(response => response.json())
             .then(data => {

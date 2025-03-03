@@ -85,12 +85,7 @@ document.querySelector(".back").addEventListener("click", () => {
     }
     display.textContent = display.textContent.slice(0, -1); 
 });
-let dogImage;
-fetch("https://dog.ceo/api/breeds/image/random") 
-    .then(response => response.json())
-    .then(data => {
-        dogImage = data.message;
-        console.log(dogImage);
-    });
 
-    console.log(dogImage);
+document.querySelector(".ordrbtn").addEventListener("click", () => {
+    alert("Coming Right Up!");
+})
