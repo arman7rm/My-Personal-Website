@@ -783,4 +783,33 @@ input {
     font-size: 10px; /* Reduce label font size for mobile */
     left: 10px; /* Adjust label position */
   }
+  .left-side, 
+  .right-side {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-photo {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .jc-sb {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .right-side a {
+    word-break: break-word;
+  }
+  .container-row {
+    flex-direction: column;
+    align-items: center;
+  }
 }
