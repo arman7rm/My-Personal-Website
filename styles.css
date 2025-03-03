@@ -651,6 +651,27 @@ input {
   body {
     font-size: 16px; /* Adjust base font size for readability */
   }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  tbody, tr {
+    display: block;
+    width: 100%;
+  }
+
+  td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .rut1 {
+    max-width: 100%;
+    height: auto;
+  }
   .keyboard {
     display: none;
   }
