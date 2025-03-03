@@ -614,8 +614,34 @@ input {
   background-color: rgb(246, 194, 97); /* lighter shade for hover effect */
 }
 
+.js-sb{
+  justify-content: space-between;
+}
 
+.contact-label{
+  color: #127cba;
+  font-weight: bolder;
+}
 
+.contact-photo{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+.left-side{
+  width: 30%;
+}
+
+.right-side{
+  width: 50%;
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+.right-side a:hover{
+  text-decoration: underline;
+}
 /* Mobile Optimization */
 @media only screen and (max-width: 768px) {
   body {
