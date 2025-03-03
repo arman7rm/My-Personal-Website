@@ -651,7 +651,9 @@ input {
   body {
     font-size: 16px; /* Adjust base font size for readability */
   }
-
+  .keyboard {
+    display: none;
+  }
   .nav-bar {
     flex-direction: column; /* Stack nav items vertically */
     align-items: center; /* Center align items */
