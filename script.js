@@ -86,6 +86,3 @@ document.querySelector(".back").addEventListener("click", () => {
     display.textContent = display.textContent.slice(0, -1); 
 });
 
-document.querySelector(".ordrbtn").addEventListener("click", () => {
-    alert("Coming Right Up!");
-})

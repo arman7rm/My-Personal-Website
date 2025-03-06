@@ -559,24 +559,60 @@ input {
   font-size: 40px;
 }
 
-.one { grid-area: one; }
-.two { grid-area: two; }
-.three { grid-area: three; }
-.four { grid-area: four; }
-.five { grid-area: five; }
-.six { grid-area: six; }
-.seven { grid-area: seven; }
-.eight { grid-area: eight; }
-.nine { grid-area: nine; }
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
 
-.clear { grid-area: clear; height: 100px; }
-.back { grid-area: back; height: 100px; }
-.divide { grid-area: divide; }
-.multiply { grid-area: multiply; }
-.minus { grid-area: minus; }
-.plus { grid-area: plus; }
-.equal { grid-area: equal; }
-.zero { grid-area: zero; }
+.clear {
+  grid-area: clear;
+  height: 100px;
+}
+.back {
+  grid-area: back;
+  height: 100px;
+}
+.divide {
+  grid-area: divide;
+}
+.multiply {
+  grid-area: multiply;
+}
+.minus {
+  grid-area: minus;
+}
+.plus {
+  grid-area: plus;
+}
+.equal {
+  grid-area: equal;
+}
+.zero {
+  grid-area: zero;
+}
 
 .orange-btn {
   background-color: rgb(232, 151, 0);
@@ -606,7 +642,6 @@ input {
   border-width: 0;
 }
 
-
 .gray-btn:hover {
   background-color: #ffffff; /* lighter shade for hover effect */
 }
@@ -614,38 +649,234 @@ input {
   background-color: rgb(246, 194, 97); /* lighter shade for hover effect */
 }
 
-.js-sb{
+.js-sb {
   justify-content: space-between;
 }
 
-.contact-label{
+.contact-label {
   color: #127cba;
   font-weight: bolder;
 }
 
-.contact-photo{
+.contact-photo {
   height: 320px;
   width: 300px;
   border-radius: 50%;
 }
 
-.left-side{
+.left-side {
   width: 350px;
 }
 
-.right-side{
+.right-side {
   width: 50%;
   margin-left: auto;
   margin-right: 10%;
 }
 
-.right-side a:hover{
+.right-side a:hover {
   text-decoration: underline;
 }
 
-.subHeader{
+.subHeader {
   color: rgb(240, 156, 0);
 }
+
+.main {
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.play-again-btn {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* General Styles */
+.wordle-container {
+  font-family: "Press Start 2P", cursive;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 50%;
+  max-width: 600px;
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.heading-wordle {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  text-shadow: 2px 2px #ff0000;
+  margin-bottom: 20px;
+}
+
+.guess-container {
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.guess1 {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  outline: none;
+  margin: 10px;
+}
+.guess2 {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  outline: none;
+  margin: 10px;
+}
+.guess3 {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  outline: none;
+  margin: 10px;
+}
+.guess4 {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  outline: none;
+  margin: 10px;
+}
+.guess5 {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  outline: none;
+  margin: 10px;
+}
+.guess6 {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  outline: none;
+  margin: 10px;
+}
+
+.submit-btn,
+.play-again-btn {
+  padding: 10px 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f3e7b6;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 15px;
+}
+
+.submit-btn:hover,
+.play-again-btn:hover {
+  background-color: #cc0000;
+}
+
+.play-again-btn {
+  display: none;
+  margin-top: 20px;
+}
+
+.secret-word {
+  font-size: 1.5rem;
+  color: #ffcc00;
+  margin-top: 20px;
+}
+
+.message-board {
+  font-size: 1.2rem;
+  color: #ffcc00;
+  margin-top: 20px;
+}
+.guess-box {
+  width: 40px; /* Set to a fixed width */
+  height: 40px; /* Set to a fixed height */
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  outline: none;
+}
+.guess-input {
+  margin-top: 10px;
+}
+
+.correct {
+  border: 2px solid green;
+}
+.incorrect {
+  border: 2px solid red;
+}
+
+.misplaced {
+  border: 2px solid #ffcc00;
+}
+
 /* Mobile Optimization */
 @media only screen and (max-width: 768px) {
   body {
@@ -656,7 +887,8 @@ input {
     border-collapse: collapse;
   }
 
-  tbody, tr {
+  tbody,
+  tr {
     display: block;
     width: 100%;
   }
@@ -811,7 +1043,7 @@ input {
     font-size: 10px; /* Reduce label font size for mobile */
     left: 10px; /* Adjust label position */
   }
-  .left-side, 
+  .left-side,
   .right-side {
     width: 100%;
     text-align: center;
@@ -832,12 +1064,33 @@ input {
     font-weight: bold;
     margin-bottom: 5px;
   }
-  
+
   .right-side a {
     word-break: break-word;
   }
   .container-row {
     flex-direction: column;
     align-items: center;
+  }
+  .main {
+    width: 90%;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .guess1 {
+    width: 90%;
+  }
+
+  .guess-box {
+    width: 50px; /* Increase input size for smaller screens */
+    height: 50px;
+  }
+
+  .submit-btn,
+  .play-again-btn {
+    width: 100%;
   }
 }
