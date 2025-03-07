@@ -85,4 +85,3 @@ document.querySelector(".back").addEventListener("click", () => {
     }
     display.textContent = display.textContent.slice(0, -1); 
 });
-

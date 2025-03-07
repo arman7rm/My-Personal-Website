@@ -24,9 +24,6 @@
                 <a href="about.html">About Me</a>
             </li>
             <li class="nav-item">
-                <a href="blog.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
                 <a href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
@@ -74,9 +71,6 @@
                 <a href="about.html">About Me</a>
             </li>
             <li class="nav-item">
-                <a href="blog.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
                 <a href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
@@ -84,7 +78,10 @@
             </li>
         </ul>
         <img style="width: 100px;" class="logo" src="assets/logo.jpg" alt="">
-        <p>© 2021</p>
+        <div class="container-row" style="justify-content: center; text-align: center;"><p>© </p><p class="established-year">2021</p></div>
     </div>
+    <script>
+        document.querySelector(".established-year").textContent = new Date().getFullYear().toString();
+    </script>   
 </body>
 </html>
